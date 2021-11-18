@@ -44,14 +44,6 @@ Time it took me to write this script:
 
 
 
-LINKS TO THE SCRIPT AND LOG FILE CAN BE FOUND BELOW
-
-SCRIPT - https://github.com/JonLizard/Gemini-API-Project/blob/main/Gemini%20API-%20Final%20%2B%20Log%20Testing.ipynb
-
-
-LOG FILE - https://github.com/JonLizard/Gemini-API-Project/blob/main/Gemini%20Log%20File.log
-
-
 
 
 
