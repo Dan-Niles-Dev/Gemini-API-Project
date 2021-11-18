@@ -3,7 +3,7 @@ The following is an instructional overview of the GEMINI API Project
 
 OVERVIEW:
 The challenge this script sets out to overcome is the Price Deviation alert - Price Deviation - "Generate an alert if the current price is more than one standard deviation from the 24hr average"
-The Script does the by accomplishing the following:
+The Script does this by accomplishing the following:
 Pulls data from the Gemini API.
 Converts the data into 2 different dataframes (std loss and std gain) via pandas.
 Uses pandas specific methods to calculate the standard deviation.
