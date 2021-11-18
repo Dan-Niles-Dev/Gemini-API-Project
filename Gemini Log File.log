@@ -1,0 +1,38 @@
+2021-11-18 06:50:46,099 INFO - API GET
+2021-11-18 06:50:46,384 INFO - Check to see how the data looks
+2021-11-18 06:50:46,462 INFO - Convert the data into 2 different dataframes, and check the first couple.
+2021-11-18 06:50:46,524 INFO - Set all the 24 hour % change data as floats.
+2021-11-18 06:50:46,575 INFO - Set 'x' to the absolute value of all 24 hour % change data.
+2021-11-18 06:50:46,623 INFO - Get a simple statistical breakdown of the 24 hour % change data
+2021-11-18 06:50:46,669 INFO std
+2021-11-18 06:50:46,674 INFO std = 0.05881061010482204
+2021-11-18 06:50:46,715 ERROR - The following coins are more than one standard deviation in growth from the total 24 hour % change         pair       price  percentChange24h
+0   SUSHIUSD      9.1242           -0.0699
+1     UMAUSD     17.3157           -0.0667
+2     DAIUSD     1.00041            0.0002
+3     FTMUSD      1.9842           -0.0780
+4     ETHDAI     4143.19           -0.0113
+..       ...         ...               ...
+89    LTCBTC     0.00364           -0.0471
+90    ZECBCH        0.26            0.0000
+91    MKRUSD     2886.98            0.0474
+92    GRTUSD      0.9027           -0.0088
+93    BATBTC  0.00001721           -0.0331
+
+[94 rows x 3 columns]
+2021-11-18 06:50:46,718 ERROR - The following coins are more than one standard deviation in growth from the total 24 hour % change         pair       price  percentChange24h
+0   SUSHIUSD      9.1242           -0.0699
+1     UMAUSD     17.3157           -0.0667
+2     DAIUSD     1.00041            0.0002
+3     FTMUSD      1.9842           -0.0780
+4     ETHDAI     4143.19           -0.0113
+..       ...         ...               ...
+89    LTCBTC     0.00364           -0.0471
+90    ZECBCH        0.26            0.0000
+91    MKRUSD     2886.98            0.0474
+92    GRTUSD      0.9027           -0.0088
+93    BATBTC  0.00001721           -0.0331
+
+[94 rows x 3 columns]
+2021-11-18 06:50:46,867 ERROR - Scatterplot for Positive 24 Hr % Change over 1 STD
+2021-11-18 06:50:47,254 ERROR - Scatterplot for Negative 24 Hr % Change under 1 STD
