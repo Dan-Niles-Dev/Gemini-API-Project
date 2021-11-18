@@ -1,0 +1,53 @@
+2021-11-18 05:22:18,346 INFO - API GET
+2021-11-18 05:22:18,368 INFO - Check to see how the data looks
+2021-11-18 05:22:18,414 INFO - Convert the data into 2 different dataframes, and check the first couple.
+2021-11-18 05:22:18,457 INFO - Set all the 24 hour % change data as floats.
+2021-11-18 05:22:18,493 INFO - Set 'x' to the absolute value of all 24 hour % change data.
+2021-11-18 05:22:18,536 INFO - Get a simple statistical breakdown of the 24 hour % change data
+2021-11-18 05:22:18,577 INFO std = 0.039967628459037584
+2021-11-18 05:22:18,641 ERROR - The following coins are more than one standard deviation in growth from the total 24 hour % change         pair    price  percentChange24h
+0    MANAUSD  3.67283            0.1289
+6    CUBEUSD  17.4615            0.0772
+14    MKRUSD   2930.3            0.0518
+18   RAREUSD     1.76            0.1602
+46  AUDIOUSD    2.399            0.0944
+60  STORJUSD  2.01466            0.1864
+82    ENJUSD    3.091            0.0547
+89   SANDUSD  4.06974            0.2043
+2021-11-18 05:22:18,644 ERROR - The following coins are more than one standard deviation in growth from the total 24 hour % change         pair       price  percentChange24h
+3     FILUSD     52.2558           -0.0625
+9     OXTETH   0.0001258           -0.0633
+12    OXTUSD     0.52423           -0.0767
+21    CTXUSD       14.05           -0.0968
+23    LRCUSD     2.34979           -0.1230
+24    BATUSD     1.01379           -0.0590
+25    LTCBTC     0.00366           -0.0518
+26    AMPUSD     0.05069           -0.0594
+29    SNXUSD       8.491           -0.0476
+35    BALUSD     20.3942           -0.0485
+38    FTMUSD      2.0121           -0.0861
+41   COMPUSD      303.67           -0.0510
+42    ZECUSD      150.99           -0.0659
+44  SUSHIUSD       9.099           -0.0814
+45    BATETH   0.0002498           -0.0556
+48    ASHUSD      47.463           -0.0488
+51    OXTBTC  0.00000888           -0.0533
+54    LTCETH      0.0518           -0.0582
+56   SHIBUSD  0.00004506           -0.0931
+59   ANKRUSD     0.12521           -0.0568
+64   MASKUSD          11           -0.0636
+65    LTCUSD         216           -0.0727
+66    RADUSD       13.68           -0.0666
+67   ALCXUSD      377.56           -0.1312
+70    FETUSD      0.7418           -0.0484
+72   LINKUSD    27.91025           -0.0536
+73    XTZUSD       4.966           -0.0561
+75   DOGEUSD      0.2285           -0.0427
+77    UMAUSD     17.4159           -0.0754
+78    QNTUSD      232.08           -0.0668
+79    LPTUSD     50.5611           -0.1375
+83    RENUSD     0.76137           -0.0525
+87   EFILUSD     52.2558           -0.0625
+88    INJUSD          11           -0.0661
+2021-11-18 05:22:19,266 ERROR - Scatterplot for Positive 24 Hr % Change over 1 STD
+2021-11-18 05:22:20,616 ERROR - Scatterplot for Negative 24 Hr % Change under 1 STD
