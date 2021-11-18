@@ -35,6 +35,8 @@ I have worked with large data sets many times and the easier it is to comprehend
 Time it took me to write this script:
 I stopped at about 4 hours per instructions.
 
+SCRIPT - https://github.com/JonLizard/Gemini-API-Project/blob/main/Gemini%20API-%20Final%20%2B%20Log%20Testing.ipynb
+LOG FILE - https://github.com/JonLizard/Gemini-API-Project/blob/main/Gemini%20Log%20File.log
 
 
 
